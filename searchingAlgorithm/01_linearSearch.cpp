@@ -5,7 +5,7 @@ using namespace std;
 // linear search :-
 // A basic method used to find a specific item in a list by checking every item one by one from the start to the end
 
-void printArr(int arr[], int len, int value){
+void linearSearch(int arr[], int len, int value){
     // Method-1
     // int i;
     // for (i = 0; i < len; i++)
@@ -41,7 +41,7 @@ int main() {
     int len = size(arr);
     int value = 500;
 
-    printArr(arr, len, value);
+    linearSearch(arr, len, value);
     
     return 0;
 }
